@@ -1,24 +1,3 @@
-# def arr(num: list[int], target: int):
-#     found = False
-#     i = 0
-#     while i < len(num):
-#         j = i + 1
-#         while j < len(num):
-#             if num[i] + num[j] == target:
-#                 print(i, j)
-#                 found = True
-#                 return
-#             j += 1
-#         i += 1
-#     if not found:
-#         print("No pair found that adds up to target.")
-
-# num = [1, 2, 3, 6]
-# target = 2
-
-# arr(num, target)
-
-
 def binarysearch (list , target):
     first = 0
     last = len(list)-1
